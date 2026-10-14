@@ -110,14 +110,3 @@ Trong lần kiểm thử này, DummyJSON Posts API xử lý thành công 100 req
 Kết quả cho thấy API phản hồi thành công trong phạm vi kịch bản đã thực hiện. Tuy nhiên, đây mới là kết quả của một lần kiểm thử với quy mô 100 request, chưa đủ để kết luận về khả năng chịu tải tối đa hoặc hiệu năng của API trong mọi điều kiện.
 
 Để đánh giá toàn diện hơn, có thể thực hiện thêm các lần kiểm thử với nhiều mức tải khác nhau, so sánh kết quả giữa các lần chạy và theo dõi các chỉ số phần trăm thời gian phản hồi như Median và 90% Line.
-
-## 9. Cấu trúc repository
-
-```text
-jmeter-api-performance/
-├── README.md
-├── API_Performance_Test.jmx
-└── screenshots/
-    ├── view-results-tree.png
-    └── summary-report.png
-```
